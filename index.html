@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>QuickTask NG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>QuickTask NG</h1>
+<p>Buy and sell digital services</p>
+
+<!-- USER INPUT -->
+<div class="input-box">
+  <input type="text" id="username" placeholder="Enter your name">
+</div>
+
+<br>
+
+<!-- SERVICES -->
+<div class="service">
+  <img src="https://via.placeholder.com/150">
+  <h3>Logo Design</h3>
+  <p>₦2000</p>
+  <button onclick="order('Logo Design', 2000)">Order</button>
+</div>
+
+<div class="service">
+  <img src="https://via.placeholder.com/150">
+  <h3>Flyer Design</h3>
+  <p>₦1500</p>
+  <button onclick="order('Flyer Design', 1500)">Order</button>
+</div>
+
+<div class="service">
+  <img src="https://via.placeholder.com/150">
+  <h3>CV Writing</h3>
+  <p>₦3000</p>
+  <button onclick="order('CV Writing', 3000)">Order</button>
+</div>
+
+<div class="service">
+  <img src="https://via.placeholder.com/150">
+  <h3>YouTube Thumbnail</h3>
+  <p>₦1000</p>
+  <button onclick="order('YouTube Thumbnail', 1000)">Order</button>
+</div>
+
+<!-- ORDER LIST -->
+<h2>Orders</h2>
+<ul id="ordersList"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
